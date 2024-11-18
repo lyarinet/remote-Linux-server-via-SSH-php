@@ -7,8 +7,8 @@ ini_set('display_errors', 1);
  */
 
 $server   = "172.26.191.110"; // server IP/hostname of the SSH server
-$username = "asifagaria"; // username for the user you are connecting as on the SSH server
-$password = "adminkaka"; // password for the user you are connecting as on the SSH server
+$username = "username"; // username for the user you are connecting as on the SSH server
+$password = "password"; // password for the user you are connecting as on the SSH server
 
 // Get commands from POST data or default to 'ip a'
 $commands = isset($_POST['commands']) ? $_POST['commands'] : ['whoami']; // Default command
